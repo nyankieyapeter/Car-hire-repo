@@ -158,7 +158,7 @@ const Fleet = () => {
               <div className="p-6 space-y-4">
                 <div>
                   <h3 className="text-xl font-bold text-foreground mb-2">{vehicle.name}</h3>
-                  <p className="text-muted-foreground text-sm leading-relaxed">{vehicle.description}</p>
+                  {/*<p className="text-muted-foreground text-sm leading-relaxed">{vehicle.description}</p>*/}
                 </div>
 
                 <div className="flex flex-wrap gap-2">
