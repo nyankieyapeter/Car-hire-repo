@@ -16,7 +16,7 @@ import car12 from "@/assets/Mazda_Demio.png";
 interface Vehicle {
   id: number;
   name: string;
-  description: string;
+ // description: string;
   price: number;
   image: string;
   features: string[];
@@ -26,7 +26,7 @@ const vehicles: Vehicle[] = [
   {
     id: 1,
     name: "Lc200 V8",
-    description: "A powerful and luxurious 4x4 SUV built for off-road dominance, business trips and executive comfort.",
+    //description: "A powerful and luxurious 4x4 SUV built for off-road dominance, business trips and executive comfort.",
     price: 35000,
     image: car1,
     features: ["Automatic", "AC", "GPS", "Leather Seats", "7 Seater"]
@@ -34,7 +34,7 @@ const vehicles: Vehicle[] = [
   {
     id: 2,
     name: "Mercedes E250",
-    description: "Executive-class sedan with unmatched elegance, smooth performance, and prestige.",
+    //description: "Executive-class sedan with unmatched elegance, smooth performance, and prestige.",
     price: 21000,
     image: car2,
     features: ["4WD", "7 Seater", "AC", "GPS", "Luggage Space"]
@@ -42,7 +42,7 @@ const vehicles: Vehicle[] = [
   {
     id: 3,
     name: "Prado J150",
-    description: "Reliable mid-size SUV with rugged performance and upscale features for all terrains.",
+    //description: "Reliable mid-size SUV with rugged performance and upscale features for all terrains.",
     price: 15000,
     image: car3,
     features: ["Manual", "AC", "Bluetooth", "Economy", "5 Seater"]
@@ -50,7 +50,7 @@ const vehicles: Vehicle[] = [
   {
     id: 4,
     name: "Toyota Harrier",
-    description: "A stylish crossover SUV blending luxury, comfort, and advanced safety technologies.",
+    //description: "A stylish crossover SUV blending luxury, comfort, and advanced safety technologies.",
     price: 9000,
     image: car4,
     features: ["Convertible", "Sport Mode", "Premium Sound", "Manual", "5 Seater"]
@@ -58,7 +58,7 @@ const vehicles: Vehicle[] = [
   {
     id: 5,
     name: "Toyota Crown",
-    description: "Sophisticated luxury sedan offering premium ride quality needs and refined power.",
+    //description: "Sophisticated luxury sedan offering premium ride quality needs and refined power.",
     price: 9000,
     image: car5,
     features: ["AWD", "5 Seater", "AC", "Safety Package"]
@@ -66,7 +66,7 @@ const vehicles: Vehicle[] = [
   {
     id: 6,
     name: "Mazda Cx5",
-    description: "Sleek and sporty compact SUV designed for performance and modern lifestyle.",
+    //description: "Sleek and sporty compact SUV designed for performance and modern lifestyle.",
     price: 9000,
     image: car6,
     features: ["Luxury", "Automatic", "Premium Interior", "GPS", "5 Seater"]
@@ -74,7 +74,7 @@ const vehicles: Vehicle[] = [
   {
     id: 7,
     name: "Toyota Noah",
-    description: "Spacious and practical 7-seater van, ideal for families or group transport.",
+    //description: "Spacious and practical 7-seater van, ideal for families or group transport.",
     price: 8000,
     image: car7,
     features: ["AWD", "7 Seater", "Premium Sound", "Navigation", "Luxury"]
@@ -82,7 +82,7 @@ const vehicles: Vehicle[] = [
   {
     id: 8,
     name: "Nissan Xtrail",
-    description: "A rugged yet refined crossover SUV perfect for both city commutes and adventures.",
+    //description: "A rugged yet refined crossover SUV perfect for both city commutes and adventures.",
     price: 8000,
     image: car8,
     features: ["Automatic", "Quattro AWD", "Premium Interior", "GPS", "5 Seater"]
@@ -90,7 +90,7 @@ const vehicles: Vehicle[] = [
   {
     id: 9,
     name: "Mark X",
-    description: "Sporty and elegant executive sedan with powerful performance and modern design.",
+    //description: "Sporty and elegant executive sedan with powerful performance and modern design.",
     price: 7000,
     image: car9,
     features: ["AWD", "5 Seater", "Terrain Response", "Premium Audio"]
@@ -98,7 +98,7 @@ const vehicles: Vehicle[] = [
   {
     id: 10,
     name: "Toyota Premio",
-    description: "Comfortable and fuel-efficient sedan ideal for business or family use.",
+    //description: "Comfortable and fuel-efficient sedan ideal for business or family use.",
     price: 6000,
     image: car10,
     features: ["Automatic", "AC", "Bluetooth", "Safety Features", "5 Seater"]
@@ -106,7 +106,7 @@ const vehicles: Vehicle[] = [
   {
     id: 11,
     name: "Toyota Allion",
-    description: "Balanced and stylish sedan offering great performance and excellent economy.",
+    //description: "Balanced and stylish sedan offering great performance and excellent economy.",//
     price: 4000,
     image: car11,
     features: ["Automatic", "AC", "Bluetooth", "Safety Features", "5 Seater"]
@@ -114,7 +114,7 @@ const vehicles: Vehicle[] = [
   {
     id: 12,
     name: "Mazda Demio",
-    description: "A compact hatchback known for its agility, efficiency, and easy city maneuverability.",
+    //description: "A compact hatchback known for its agility, efficiency, and easy city maneuverability.",
     price: 3500,
     image: car12,
     features: ["Automatic", "AC", "Bluetooth", "Safety Features", "5 Seater"]
