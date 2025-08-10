@@ -61,7 +61,7 @@ const vehicles: Vehicle[] = [
     //description: "Sophisticated luxury sedan offering premium ride quality needs and refined power.",
     price: 9000,
     image: car5,
-    features: ["AWD", "5 Seater", "AC", "Premium Interior", "Safety Package"]
+    features: ["AWD", "5 Seater", "Premium Interior", "Safety Package"]
   },
   {
     id: 6,
@@ -101,7 +101,7 @@ const vehicles: Vehicle[] = [
     //description: "Comfortable and fuel-efficient sedan ideal for business or family use.",
     price: 6000,
     image: car10,
-    features: ["Automatic", "AC", "Bluetooth", "5 Seater"]
+    features: ["Automatic", "AC", "Safety Features", "Bluetooth", "5 Seater"]
   },
   {
     id: 11,
