@@ -12,6 +12,8 @@ import car9 from "@/assets/Mark_X-removebg-preview.png";
 import car10 from "@/assets/Premio.png";
 import car11 from "@/assets/Aliyon-removebg-preview.png";
 import car12 from "@/assets/Mazda_Demio.png";
+import car13 from "@/assets/Probox.png";
+
 
 
 interface Vehicle {
@@ -118,6 +120,14 @@ const vehicles: Vehicle[] = [
     description: "A compact hatchback known for its agility, efficiency, and easy city maneuverability.",
     price: 3500,
     image: car12,
+    features: ["Automatic", "AC", "Bluetooth", "Safety Features", "5 Seater"]
+  },
+  {
+    id: 13,
+    name: "Probox",
+    description: "A compact hatchback known for its agility, efficiency, and easy city maneuverability.",
+    price: 3500,
+    image: car13,
     features: ["Automatic", "AC", "Bluetooth", "Safety Features", "5 Seater"]
   }
   
