@@ -128,7 +128,7 @@ const vehicles: Vehicle[] = [
     description: "A compact hatchback known for its agility, efficiency, and easy city maneuverability.",
     price: 3500,
     image: car13,
-    features: ["Automatic", "AC", "Bluetooth", "Safety Features", "5 Seater"]
+    features: ["Automatic", "AC", "Bluetooth", "Safety Features", "4 Seater"]
   }
   
 ];
